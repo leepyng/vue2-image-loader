@@ -16,7 +16,7 @@ a image loader component for vue2
 
 # how to use
 	template:
-		<ImgLoader :defaultImgUrl="'hotelDf.png'" :imgUrl="imgurl" />
+		<ImgLoader :defaultImgUrl="'error.png'" :imgUrl="imgurl" />
 	
 	script:
 		//import
