@@ -1,11 +1,13 @@
 <template>
 	<div v-if="!url">
 		<div class="img-loading">
-		        <span></span>
-		        <span></span>
-		        <span></span>
-		        <span></span>
-		        <span></span>
+		      <slot name="img-loading">
+				<span></span>
+				<span></span>
+				<span></span>
+				<span></span>
+				<span></span>
+			</slot>
 		</div>
 	</div>
 	<div v-else-if="url" >
